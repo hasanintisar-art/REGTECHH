@@ -1,3 +1,2 @@
-panda 
-yfinance
-STREAMLIT
+streamlit>=1.20
+pandas>=1.5
