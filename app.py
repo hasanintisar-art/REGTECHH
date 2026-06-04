@@ -17,4 +17,3 @@ class BudgetItem:
     def __repr__(self):
         sign = '+' if self.item_type == 'income' else '-'
         return f"[{self.date}] {self.category.ljust(10)}: {self.description.ljust(20)} {sign}${self.amount:,.2f}"
-
